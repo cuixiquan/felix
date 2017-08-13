@@ -1,0 +1,50 @@
+Variance Issues -- High Variance Sampling?? [Normal Distribution depends on the variance]
+NCHG has special way of handling UB/LB
+Fix the groups issue. 
+Make Note for high variance sampling
+Make note for wishart and inverse
+Test models and correctness
+Fix Inverse function in LogicalNode. [Also Wishart Distribution]
+Look into and Write Comments on ComputeFactorGraphTable [Created indices and joins]
+Make all tables UNLOGGED
+==========================================================================
+TODO:
+2. ISUNARYMINUS Required?? [Handle Unary Minus]
+5. Optimizations have been removed
+7. LogicalNode with multiple variables LHS -> Inverse?? Then is variablestoadd correct??
+8. Bounds for node with node indexes and LogicalNode
+9. Greenplum for materializing NNM
+==========================================================================
+Todo before release:
+delete ui code.
+Copy the licence information
+5. Make a list of TODOs
+3. Test on all the 95% BUGS models. Try all distributions
+2. Try to optimize the queries as much as possible
+9. New kind of Wishart Distribution
+==========================================================================
+PostgreSQL Tuning for bugs parser:
+Tune PostgreSQL for performance:
+Increase checkpoint segments
+Increase buffer size
+Increase work mem size
+Increase maintanence work mem size
+Turn fsync off
+Checkpoint timeout
+autovacuum off
+wal_writer delay
+==========================================================================
+Not Supported:
+Limitation can be a node too
+Data Transformations
+Wishart and Inverse
+Truncation - (what is this? Some integration or is it just censor??)
+Cumulative Function Implement
+Generalised F
+Rectangular format for DATA === NOT SUPPORTED
+Comments not supported
+To Implement Scalar Functions: cut, density, deviance, gammap, integral, 
+post.p.value, prior.p.value,replicate.post(s),replicate.prior(s), solution(F(s), s1, s2, s3) 
+==========================================================================
+To Test (for current release):
+TEST BY USING ALL DISTRIBUTIONS with different values of UB and LB

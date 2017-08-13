@@ -1,0 +1,26 @@
+test_urcu_mb_gc-urcu-pointer.o: ../urcu-pointer.c ../urcu/uatomic.h \
+ ../urcu/compiler.h \
+ /afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stddef.h \
+ ../urcu/system.h ../urcu/arch.h ../urcu/config.h ../urcu/arch/generic.h \
+ ../urcu/uatomic/generic.h ../urcu/static/urcu-pointer.h \
+ ../urcu-pointer.h
+
+../urcu/uatomic.h:
+
+../urcu/compiler.h:
+
+/afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stddef.h:
+
+../urcu/system.h:
+
+../urcu/arch.h:
+
+../urcu/config.h:
+
+../urcu/arch/generic.h:
+
+../urcu/uatomic/generic.h:
+
+../urcu/static/urcu-pointer.h:
+
+../urcu-pointer.h:

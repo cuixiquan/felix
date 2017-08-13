@@ -1,0 +1,11 @@
+prefix=/scratch/shrirams/hazygroup/trunk/elementary/0.3/Elementary0.3/lib/urcu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: Userspace RCU QSBR
+Description: A userspace RCU (read-copy-update) library, quiescent state version
+Version: 0.7.6
+Requires:
+Libs: -L${libdir} -lurcu-qsbr
+Cflags: -I${includedir} 

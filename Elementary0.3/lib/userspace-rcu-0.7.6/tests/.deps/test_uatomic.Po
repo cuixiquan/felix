@@ -1,0 +1,60 @@
+test_uatomic.o: test_uatomic.c /usr/include/stdio.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/gnu/stubs.h \
+ /usr/include/gnu/stubs-64.h \
+ /afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stddef.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/libio.h /usr/include/_G_config.h /usr/include/wchar.h \
+ /afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stdarg.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h /usr/include/assert.h ../urcu/uatomic.h \
+ ../urcu/compiler.h ../urcu/system.h ../urcu/arch.h ../urcu/config.h \
+ ../urcu/arch/generic.h ../urcu/uatomic/generic.h
+
+/usr/include/stdio.h:
+
+/usr/include/features.h:
+
+/usr/include/sys/cdefs.h:
+
+/usr/include/bits/wordsize.h:
+
+/usr/include/gnu/stubs.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stddef.h:
+
+/usr/include/bits/types.h:
+
+/usr/include/bits/typesizes.h:
+
+/usr/include/libio.h:
+
+/usr/include/_G_config.h:
+
+/usr/include/wchar.h:
+
+/afs/cs.wisc.edu/s/gcc-4.7.2/amd64_rhel6/bin/../lib/gcc/x86_64-unknown-linux-gnu/4.7.2/include/stdarg.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/bits/stdio.h:
+
+/usr/include/assert.h:
+
+../urcu/uatomic.h:
+
+../urcu/compiler.h:
+
+../urcu/system.h:
+
+../urcu/arch.h:
+
+../urcu/config.h:
+
+../urcu/arch/generic.h:
+
+../urcu/uatomic/generic.h:
